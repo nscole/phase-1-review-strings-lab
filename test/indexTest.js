@@ -1,6 +1,6 @@
 describe('index.js', () => {
   describe('currentUser', () => {
-    it('is defined', () => {
+    it('is defined', () => { 
       expect(currentUser, "The 'currentUser' variable must contain a string").to.be.a('string');
       expect(currentUser, "You need to modify the value of the 'currentUser' variable").to.not.be.empty;
     });

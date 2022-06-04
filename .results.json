@@ -2,50 +2,41 @@
   "stats": {
     "suites": 5,
     "tests": 10,
-    "passes": 1,
+    "passes": 4,
     "pending": 0,
-    "failures": 9,
-    "start": "2022-06-04T05:45:19.585Z",
-    "end": "2022-06-04T05:45:19.980Z",
-    "duration": 395
+    "failures": 6,
+    "start": "2022-06-04T05:48:58.684Z",
+    "end": "2022-06-04T05:48:59.350Z",
+    "duration": 666
   },
   "tests": [
     {
       "title": "is defined",
       "fullTitle": "index.js currentUser is defined",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "contains \"Welcome to Flatbook, \"",
       "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: welcomeMessage is not defined\n    at Context.<anonymous> (test/indexTest.js:11:14)\n    at process.processImmediate (node:internal/timers:471:21)",
-        "message": "welcomeMessage is not defined"
-      }
+      "err": {}
     },
     {
       "title": "contains the value of the 'currentUser' variable",
       "fullTitle": "index.js welcomeMessage contains the value of the 'currentUser' variable",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: welcomeMessage is not defined\n    at Context.<anonymous> (test/indexTest.js:15:14)\n    at process.processImmediate (node:internal/timers:471:21)",
-        "message": "welcomeMessage is not defined"
-      }
+      "err": {}
     },
     {
       "title": "ends with an exclamation point!",
       "fullTitle": "index.js welcomeMessage ends with an exclamation point!",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: welcomeMessage is not defined\n    at Context.<anonymous> (test/indexTest.js:19:14)\n    at process.processImmediate (node:internal/timers:471:21)",
-        "message": "welcomeMessage is not defined"
-      }
+      "err": {}
     },
     {
       "title": "contains \"WELCOME TO FLATBOOK, \"",
@@ -111,36 +102,6 @@
   "pending": [],
   "failures": [
     {
-      "title": "contains \"Welcome to Flatbook, \"",
-      "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: welcomeMessage is not defined\n    at Context.<anonymous> (test/indexTest.js:11:14)\n    at process.processImmediate (node:internal/timers:471:21)",
-        "message": "welcomeMessage is not defined"
-      }
-    },
-    {
-      "title": "contains the value of the 'currentUser' variable",
-      "fullTitle": "index.js welcomeMessage contains the value of the 'currentUser' variable",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: welcomeMessage is not defined\n    at Context.<anonymous> (test/indexTest.js:15:14)\n    at process.processImmediate (node:internal/timers:471:21)",
-        "message": "welcomeMessage is not defined"
-      }
-    },
-    {
-      "title": "ends with an exclamation point!",
-      "fullTitle": "index.js welcomeMessage ends with an exclamation point!",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: welcomeMessage is not defined\n    at Context.<anonymous> (test/indexTest.js:19:14)\n    at process.processImmediate (node:internal/timers:471:21)",
-        "message": "welcomeMessage is not defined"
-      }
-    },
-    {
       "title": "contains \"WELCOME TO FLATBOOK, \"",
       "fullTitle": "index.js excitedWelcomeMessage contains \"WELCOME TO FLATBOOK, \"",
       "duration": 0,
@@ -205,6 +166,27 @@
     {
       "title": "is defined",
       "fullTitle": "index.js currentUser is defined",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains \"Welcome to Flatbook, \"",
+      "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains the value of the 'currentUser' variable",
+      "fullTitle": "index.js welcomeMessage contains the value of the 'currentUser' variable",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "ends with an exclamation point!",
+      "fullTitle": "index.js welcomeMessage ends with an exclamation point!",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
